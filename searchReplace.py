@@ -7,7 +7,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 for files in onlyfiles:
     print 'file: {0}'.format(files)
 
-replacements = {'girlfriend': 'vandana', '<manager>' : 'madhavi', '<boss>': 'ramesh'}
+replacements = {'girlfriend': 'Hope', '<manager>' : 'madhavi', '<boss>': 'ramesh'}
 
 for files in onlyfiles:
     fileInMemory = []
